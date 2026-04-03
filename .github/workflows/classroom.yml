@@ -2,8 +2,12 @@
 # Thin caller for ECA Director (prompt-only) assignments.
 # Delegates all logic to the shared reusable workflow in workflows-central.
 #
+# After forking to a classroom org, update the 'uses:' line below
+# to point to your org's fork of workflows-central:
+#   uses: <your-org>/workflows-central/...@<version>
+#
 # Prerequisites (set at the classroom org level):
-#   vars.PYTHON_GRADER_URL  → ghcr.io/kangwonlee/eca-director-pytest-NNN:latest
+#   vars.PYTHON_GRADER_URL   — grader container image URL
 #   secrets.CR_PAT, secrets.GOOGLE_API_KEY (or other API keys), etc.
 
 name: Autograding Tests
