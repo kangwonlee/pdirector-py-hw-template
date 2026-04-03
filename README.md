@@ -21,8 +21,9 @@ This is a **prompt engineering** assignment.<br>이 과제는 **프롬프트 엔
 
 1. Write a prompt in `prompt.md` that instructs the AI to implement the required function.<br>`prompt.md` 에 필요한 함수를 구현하도록 AI에게 지시하는 프롬프트를 작성하시오.
 2. Push your changes. The workflow will call the AI to generate `exercise.py` from your prompt.<br>변경 사항을 푸시하면, 워크플로우가 AI를 호출하여 프롬프트로부터 `exercise.py` 를 생성합니다.
-3. The generated code is graded automatically by the test suite.<br>생성된 코드는 테스트 스위트에 의해 자동으로 채점됩니다.
-4. If the tests fail, revise your prompt and push again.<br>테스트가 실패하면 프롬프트를 수정하고 다시 푸시하시오.
+3. At the Actions tab, check the grading result.<br>Actions 탭에서 채점 결과를 확인하시오.
+4. Download the artifact to review the generated `exercise.py` and `feedback.md`.<br>Artifact 를 다운로드하여 생성된 `exercise.py` 와 `feedback.md` 를 확인하시오.
+5. If the tests fail, revise your prompt and push again.<br>테스트가 실패하면 프롬프트를 수정하고 다시 푸시하시오.
 
 **Tips for writing effective prompts 효과적인 프롬프트 작성 팁:**
 - Specify the exact function name and signature.<br>정확한 함수 이름과 시그니처를 명시하시오.
@@ -45,6 +46,7 @@ This is a **prompt engineering** assignment.<br>이 과제는 **프롬프트 엔
 1. Write your prompt in the `prompt.md` file.<br>`prompt.md` 파일에 프롬프트를 작성합니다.
 2. Use the GitHub online editor to commit and push your changes. (See below for detailed instructions)<br>GitHub 온라인 편집기를 사용하여 수정 사항을 커밋하고 푸시합니다. (자세한 사용법은 아래 참조)
 3. At the Actions tab of your Github repository, please check the result.<br>깃헙 저장소의 Actions 탭에서 결과를 확인 바랍니다.
+4. Download the artifact (click the artifact name at the bottom of the workflow run) to review the AI-generated code (`exercise.py`) and feedback (`feedback.md`).<br>워크플로우 실행 하단의 artifact 이름을 클릭하여 AI가 생성한 코드(`exercise.py`)와 피드백(`feedback.md`)을 확인하시오.
 
 ## How to Use the GitHub Online Editor<br>Github 온라인 편집기 사용법
 
